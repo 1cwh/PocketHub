@@ -50,7 +50,7 @@ Icon
 ###Android###
 
 # Built application files
-*.apk
+# *.apk
 *.ap_
 
 # Files for ART and Dalvik VM
