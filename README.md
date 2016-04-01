@@ -2,6 +2,8 @@
 
 [![Join the chat at https://gitter.im/pockethub/PocketHub](https://badges.gitter.im/pockethub/PocketHub.svg)](https://gitter.im/pockethub/PocketHub?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+> In this branch, a fix repository for ahangchen.
+
 This repository contains the source code for the PocketHub Android app.
 
 This is the *same* repository as the now-defunct official GitHub Android app.
