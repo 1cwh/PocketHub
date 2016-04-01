@@ -55,7 +55,7 @@ public class LoginWebViewActivity extends AppCompatActivity {
                 // validate scheme is not enough, validate parameters is needed
                 Uri uri = Uri.parse(url);
                 if (uri.getScheme().equals(getString(R.string.github_oauth_scheme))
-                        && uri.getEncodedPath().equals("/auth/github_oauth/callback")) {
+                        && uri.getQueryParameter("code") != null) {
                     Intent data = new Intent();
                     data.setData(uri);
                     setResult(RESULT_OK, data);
